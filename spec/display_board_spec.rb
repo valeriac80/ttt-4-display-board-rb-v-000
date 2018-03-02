@@ -157,7 +157,7 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" X | X | X ")
     end
-    
+
 
       # Each line that starts with expect represents a row in the ouput.
       # The desired characters a row must include are provided by the String
